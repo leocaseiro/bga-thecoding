@@ -26,6 +26,17 @@
 -->
 
 <div class="cards">
+    <div class="data-card data-card--back"></div>
+    <div class="data-card data-card--a_b"></div>
+    <div class="data-card data-card--c_d"></div>
+    <div class="data-card data-card--e_f"></div>
+    <div class="data-card data-card--00_19"></div>
+    <div class="data-card data-card--20_39"></div>
+    <div class="data-card data-card--40_59"></div>
+    <div class="data-card data-card--60_79"></div>
+    <div class="data-card data-card--80_99"></div>
+</div>
+<div class="cards">
     <div class="card card--code_card__back"></div>
     <div class="card card--alphabet_code__a"></div>
     <div class="card card--alphabet_code__b"></div>

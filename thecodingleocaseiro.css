@@ -50,10 +50,11 @@
 
 :root {
     --thecodingCardScale: .25;
-    --thecodingDataCardWidth: 257px;
-    --thecodingDataCardHeight: 173px;
     --thecodingCardWidth: 500px;
     --thecodingCardHeight: 755px;
+    --thecodingDataCardScale: .35;
+    --thecodingDataCardWidth: 591px;
+    --thecodingDataCardHeight: 400px;
     --thecodingRedLight: #B3372E;
     --thecodingRedDark: #3F171B;
     --thecodingBlueLight: #6D98CC;
@@ -75,6 +76,53 @@
     box-sizing: content-box;
     width: calc(var(--thecodingCardWidth) * var(--thecodingCardScale));
     height: calc(var(--thecodingCardHeight) * var(--thecodingCardScale));
+}
+
+.data-card {
+    background: url('./img/data-cards_sprite.png');
+    background-size: 300% 300%;
+    border-radius: 13px;
+    box-shadow: 2px 1px 1px rgb(0 0 0 / 44%);
+    box-sizing: content-box;
+    width: calc(var(--thecodingDataCardWidth) * var(--thecodingDataCardScale));
+    height: calc(var(--thecodingDataCardHeight) * var(--thecodingDataCardScale));
+}
+
+/* Data Cards Sprites */
+.data-card--back {
+    background-position: 0 0;
+}
+
+.data-card--a_b {
+    background-position: -100% -0;
+}
+
+.data-card--c_d {
+    background-position: -0 -100%;
+}
+
+.data-card--e_f {
+    background-position: -100% -100%;
+}
+
+.data-card--00_19 {
+    background-position: -200% -0;
+}
+
+.data-card--20_39 {
+    background-position: -200% -100%;
+}
+
+.data-card--40_59 {
+    background-position: -0 -200%;
+}
+
+.data-card--60_79 {
+    background-position: -100% -200%;
+}
+
+.data-card--80_99 {
+    background-position: -200% -200%;
 }
 
 /* Card Sprites */
