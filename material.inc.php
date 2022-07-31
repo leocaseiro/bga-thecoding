@@ -19,7 +19,7 @@
  *
  */
 
-$this->harckCards = [
+$this->hackCards = [
   0 => [
     'value' => [0,1,2,3],
     'column' => [1],

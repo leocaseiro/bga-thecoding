@@ -47,3 +47,185 @@
 
 
 /********* You can start writing your CSS below this line: **********/
+
+:root {
+    --thecodingCardScale: .25;
+    --thecodingDataCardWidth: 257px;
+    --thecodingDataCardHeight: 173px;
+    --thecodingCardWidth: 500px;
+    --thecodingCardHeight: 755px;
+    --thecodingRedLight: #B3372E;
+    --thecodingRedDark: #3F171B;
+    --thecodingBlueLight: #6D98CC;
+    --thecodingBlueDark: #263C74;
+    --thecodingGreenLight: #55A365;
+    --thecodingGreenDark: #1F3723;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: url('./img/cards_sprite.jpg');
+    background-size: 800% 500%;
+    border-radius: 13px;
+    box-shadow: 2px 1px 1px rgb(0 0 0 / 44%);
+    box-sizing: content-box;
+    width: calc(var(--thecodingCardWidth) * var(--thecodingCardScale));
+    height: calc(var(--thecodingCardHeight) * var(--thecodingCardScale));
+}
+
+/* Card Sprites */
+.card--hack_card__05 {
+    background-position: -0 -0;
+}
+
+.card--x_code__8 {
+    background-position: -100% -0;
+}
+
+.card--x_code__9 {
+    background-position: -200% -0;
+}
+
+.card--x_code__7 {
+    background-position: -300% -0;
+}
+
+.card--x_code__5 {
+    background-position: -0 -100%;
+}
+
+.card--x_code__6 {
+    background-position: -100% -100%;
+}
+
+.card--x_code__4 {
+    background-position: -200% -100%;
+}
+
+.card--x_code__2 {
+    background-position: -300% -100%;
+}
+
+.card--x_code__3 {
+    background-position: -400% -0;
+}
+
+.card--x_code__1 {
+    background-position: -400% -100%;
+}
+
+.card--x_code__0 {
+    background-position: -0 -200%;
+}
+
+.card--hack_card__back {
+    background-position: -100% -200%;
+}
+
+.card--hack_card__19 {
+    background-position: -200% -200%;
+}
+
+.card--hack_card__17 {
+    background-position: -300% -200%;
+}
+
+.card--hack_card__18 {
+    background-position: -400% -200%;
+}
+
+.card--hack_card__13 {
+    background-position: -500% -0;
+}
+
+.card--hack_card__12 {
+    background-position: -500% -100%;
+}
+
+.card--hack_card__14 {
+    background-position: -500% -200%;
+}
+
+.card--hack_card__16 {
+    background-position: -600% -0;
+}
+
+.card--hack_card__15 {
+    background-position: -600% -100%;
+}
+
+.card--hack_card__11 {
+    background-position: -600% -200%;
+}
+
+.card--hack_card__10 {
+    background-position: -0 -300%;
+}
+
+.card--hack_card__09 {
+    background-position: -100% -300%;
+}
+
+.card--hack_card__08 {
+    background-position: -200% -300%;
+}
+
+.card--hack_card__07 {
+    background-position: -300% -300%;
+}
+
+.card--hack_card__06 {
+    background-position: -400% -300%;
+}
+
+.card--hack_card__04 {
+    background-position: -500% -300%;
+}
+
+.card--hack_card__03 {
+    background-position: -600% -300%;
+}
+
+.card--hack_card__02 {
+    background-position: -700% -0;
+}
+
+.card--hack_card__01 {
+    background-position: -700% -100%;
+}
+
+.card--hack_card__00 {
+    background-position: -700% -200%;
+}
+
+.card--code_card__back {
+    background-position: -700% -300%;
+}
+
+.card--alphabet_code__f {
+    background-position: -0 -400%;
+}
+
+.card--alphabet_code__e {
+    background-position: -100% -400%;
+}
+
+.card--alphabet_code__d {
+    background-position: -200% -400%;
+}
+
+.card--alphabet_code__c {
+    background-position: -300% -400%;
+}
+
+.card--alphabet_code__b {
+    background-position: -400% -400%;
+}
+
+.card--alphabet_code__a {
+    background-position: -500% -400%;
+}
